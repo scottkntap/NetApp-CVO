@@ -1,0 +1,40 @@
+{
+    "name": "NetAppCVOSN01",
+    "tenantId": "workspace-XXXXXX",
+    "region": "us-east-2",
+    "packageName": "aws_poc",
+    "dataEncryptionType": "AWS",
+    "capacityTier": "S3",
+    "vsaMetadata": {
+      "ontapVersion": "ONTAP-9.10.1RC1.T1",
+      "licenseType": "capacity-paygo",
+      "instanceType": "m5.xlarge",
+      "capacityPackageName": "Freemium"
+    },
+    "writingSpeedState": "NORMAL",
+    "subnetId": "subnet-XXXXXXX",
+    "svmPassword": "Netapp123",
+    "vpcId": "vpc-XXXXXXXX",
+    "ontapEncryptionParameters": null,
+    "ebsVolumeType": "gp2",
+    "ebsVolumeSize": {
+      "size": 500,
+      "unit": "GB",
+      "_identifier": "500 GB"
+    },
+    "awsTags": [
+      {
+        "tagKey": "KEY",
+        "tagValue": "VALUE"
+      }
+    ],
+    "optimizedNetworkUtilization": false,
+    "instanceTenancy": "default",
+    "iops": null,
+    "throughput": null,
+    "cloudProviderAccount": "InstanceProfile",
+    "saasSubscriptionId": "aws-sas-subscription-id",
+    "backupVolumesToCbs": false,
+    "enableCompliance": false,
+    "enableMonitoring": false
+  }
