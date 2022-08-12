@@ -16,7 +16,7 @@
     "svmPassword": "Netapp123",
     "vpcId": "vpc-XXXXXXXX",
     "ontapEncryptionParameters": null,
-    "ebsVolumeType": "gp2",
+    "ebsVolumeType": "gp3",
     "ebsVolumeSize": {
       "size": 500,
       "unit": "GB",
